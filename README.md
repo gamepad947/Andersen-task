@@ -1,4 +1,4 @@
 # Andersen tasks 
 
-[flat()](./flat.js)
-[deepCopy()](./deepCopy.js)
+1.[flat()](./flat.js)
+2.[deepCopy()](./deepCopy.js)

@@ -5,7 +5,7 @@ var foo = [1, 2, 3, [4, 5, 6, [7, 8, 9, [0]]]];
 function flat1(arr, cur) {
     cur = cur === undefined ? [] : cur;
     for (var i = 0; i < arr.length; i++) {
-        if (Array.isArray(arr[i])) {
+        if (Array.isArray(arr[i])) { 
             flat1(arr[i], cur);
         }
         else {
@@ -21,7 +21,7 @@ console.log(flat1(foo)); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
 
 function flat2(arr) {
 
-    if (Array.isArray(arr)) {
+    if (Array.isArray(arr)) { //or arr.splice
         return arr.reduce(function (acc, cur) {
             return acc.concat(Array.isArray(cur) ? flat2(cur) : (cur))
         }, []);

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Weather Forecast</title>
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/font/weathericons-regular-webfont.svg">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<h1>Weather Forecast</h1>
+		<hr><br>
+		<div id="location"></div>
+
+		<div class="weather">
+			<div id="summary"></div>
+			<div id="temperature" class="fahrenheit"></div>
+			<div id="weatherIcon">
+				<i id="weatherImage" class="wi"></i>
+			</div>
+
+			<button id="tempBtn" type="submit">Celsius/Fahrenheit</button>
+		</div>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	background-color: #ecf0f1;
+	color: #333;
+	font-size: 1.05em;
+}
+
+.wrapper {
+	padding: 50px;
+	margin: 50px;
+	border: 1px solid #767575;
+}
+
+.wrapper h1 {
+	text-align: center;
+	font-size: 3em;
+	margin-top: -20px;
+	margin-bottom: 20px;
+}
+
+#location, #summary, #temperature, #weatherIcon {
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+#summary {
+	text-transform: capitalize;
+}
+
+#weatherImage {
+	text-align: center;
+	font-size: 5em;
+}
+
+.fahrenheit {
+	color: #c0392b;
+}
+
+.celsius {
+	color: #3498db;
+}
+
+#tempBtn {
+	padding: 15px;
+	font-size: 1em;
+	display: block;
+	margin: 0 auto;
+	box-shadow: 5px 5px 5px #a3a3a3;
+	background-color: #EFF4E4;
+}
+
+#tempBtn:hover {
+	opacity: 0.4;
+}

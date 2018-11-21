@@ -3,5 +3,5 @@
 1. [flat()](./flat.js)
 2. [deepCopy()](./deepCopy.js)
 3. [weatherForecaster()](./weatherForecaster)
-3.1. [weather-forecast()](./weather-forecast)
+3.1 [weather-forecast()](./weather-forecast)
 4. [familyTree()](./familyTree)

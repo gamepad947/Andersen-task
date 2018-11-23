@@ -1,4 +1,4 @@
-var dataModul = (function () {
+var dataModule = (function () {
   function getLocation(success, error) {
     if (navigator.geolocation) {
 
